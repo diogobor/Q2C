@@ -13,7 +13,7 @@ Software responsible for managing the list of waiting samples in mass spectromet
 # Procedures
 
 1. **Software installation:**<br/>
-  1.1 Download Scout by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).
+  1.1 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).
   <br/>1.2 Install it by double-clicking the previous downloaded file.
 
 1. **Workflow:**<br/>
