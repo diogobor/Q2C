@@ -54,8 +54,19 @@ Software responsible for managing the list of waiting samples in mass spectromet
    &emsp;&emsp;2.1.5.2 Once the OAuth client ID is created, a new window is displayed with the <b>Google Client ID</b> and <b>Google Secret ID</b>. (<b>Figure 11</b>) Both IDs will be used to set up the database on Q2C.
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/d52d6ec7-1967-4e1b-94b9-dfba37cdf71e"><br/>
    <b>Figure 11: Client and Secret IDs. Both of them are used to set up the database on Q2C.</b></p>
-
-
-   
-
+   &emsp;2.1.6 Go to <i>Enabled APIs and services</i> and click on <i>Enable APIs and Services</i>. (<b>Figure 12</b>)
+   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/cbaaee51-370b-49f0-b9a9-55496448663e"><br/>
+   <b>Figure 12: Enable APIs and services.</b></p>
+   &emsp;&emsp;2.1.6.1 In the API Library, search for <i>google drive api</i> (<b>Figure 13a</b>) and enable it. (<b>Figure 13b</b>)
+   <p align="center">
+     <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/2437717c-675e-4610-86cd-d2565f036a9e">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/9812892f-65d7-436a-ada7-d4533a348d17"><br/>
+   <b>Figure 13: Enable Google Drive API.</b></p>
+   &emsp;&emsp;2.1.6.2 In the API Library, search for <i>gmail api</i> (<b>Figure 14a</b>) and enable it. (<b>Figure 14b</b>)
+   <p align="center">
+     <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/5969dcc9-2d6d-4b9e-bb07-241bc2104022">&emsp;&emsp;<img width="25%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/481d6378-d198-4bae-9096-cfec58d8a946"><br/>
+   <b>Figure 14: Enable Gmail API.</b></p>
+   &emsp;&emsp;2.1.6.3 In the API Library, search for <i>google sheets api</i> (<b>Figure 15a</b>) and enable it. (<b>Figure 15b</b>)
+   <p align="center">
+     <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/32b9fb7a-28f6-4299-95a2-94ad08b08663">&emsp;&emsp;<img width="25%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/616e0468-e7c8-4710-b039-588fcb4a3e87"><br/>
+   <b>Figure 15: Enable Google Sheets API.</b></p>
 
