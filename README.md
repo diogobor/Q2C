@@ -40,8 +40,20 @@ Software responsible for managing the list of waiting samples in mass spectromet
    &emsp;&emsp;2.1.4.1 Set up an app name (<i>q2c-software</i>) and select a valid Gmail. (<b>Figure 7</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/881e3f35-7043-4690-ba2f-a841fee68e1d"><br/>
    <b>Figure 7: Start to set up an external user type by giving an app name and selecting a valid Gmail.</b></p>
-
-
+   &emsp;&emsp;2.1.4.2 Set an email for the developer contact information (<i>set the same used in the previous setp</i>) and click on the '<i>Save and Continue</i>' button. (<b>Figure 8</b>)
+   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b0d9d02b-e581-4025-8ffa-81d19e29250d"><br/>
+   <b>Figure 8: Save the external user type.</b></p>
+   &emsp;&emsp;2.1.4.3 Click on '<i>Save and Continue</i>' button in <i>Scopes</i> and <i>Test users</i> steps. Finally, in '<i>Summary</i>' step, go to the bottom and click on the '<i>Back to dashboard</i>' button.<br/><br/>
+   &emsp;2.1.5 Go to <i>Credentials</i>, click on <i>Create Credentials</i>, then on <i>OAuth client ID</i>. (<b>Figure 9</b>)
+   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/d3c156e5-a667-4ea8-a582-ac2a71a86e20"><br/>
+   <b>Figure 9: Create credentials.</b></p>
+   &emsp;&emsp;2.1.5.1 In <i>Application type</i>, select <i>Desktop app</i> (<b>Figure 10a</b>), then type a name (<i>q2c-software</i>) and click on <i>Create</i> button. (<b>Figure 10b</b>)
+   <p align="center">
+     <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/4877afec-b450-4f7e-9f80-e5d49dcc69ee">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/6a337679-8adf-4d27-a272-13409a69909e"><br/>
+   <b>Figure 10: Create OAuth client ID.</b></p>
+   &emsp;&emsp;2.1.5.2 Once the OAuth client ID is created, a new window is displayed with the <b>Google Client ID</b> and <b>Google Secret ID</b>. (<b>Figure 11</b>) Both IDs will be used to set up the database on Q2C.
+   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/d52d6ec7-1967-4e1b-94b9-dfba37cdf71e"><br/>
+   <b>Figure 11: Client and Secret IDs. Both of them are used to set up the database on Q2C.</b></p>
 
 
    
