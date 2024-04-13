@@ -20,8 +20,8 @@ Software responsible for managing the list of waiting samples in mass spectromet
   2.1 <i>Set up a Google cloud project:</i><br/>
     &emsp;2.1.1 Go to [Google account](https://accounts.google.com) and sign up or log in.<br/>
     &emsp;2.1.2 Go to [Google cloud platform](https://console.cloud.google.com/) and create a new project.<br/>
-    &emsp;&emsp;2.1.2.1 To do so, go to <i>Applications</i>. (<b>Figure 1</b>)
-   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/9ae30cf2-cdd1-4ce9-a3fe-b01ff95d3dcf"><br/>
+    &emsp;&emsp;2.1.2.1 To do so, go to <i>Select a project</i>. (<b>Figure 1</b>)
+   <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/f1939a67-fedc-41e0-830e-f6b2bedf7066"><br/>
    <b>Figure 1: Access Google cloud platform.</b></p>
     &emsp;&emsp;2.1.2.2 Click on '<i>New Project</i>'. (<b>Figure 2</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/f4cb4f03-1990-4b9c-a945-1f3f9cb8bfd7"><br/>
@@ -56,7 +56,7 @@ Software responsible for managing the list of waiting samples in mass spectromet
    <b>Figure 11: Client and Secret IDs. Both of them are used to set up the database on Q2C.</b></p>
    &emsp;2.1.6 Go to <i>Enabled APIs and services</i> and click on <i>Enable APIs and Services</i>. (<b>Figure 12</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/cbaaee51-370b-49f0-b9a9-55496448663e"><br/>
-   <b>Figure 12: Enable APIs and services.</b></p>
+   <b>Figure 12: Enable APIs and Services.</b></p>
    &emsp;&emsp;2.1.6.1 In the API Library, search for <i>google drive api</i> (<b>Figure 13a</b>) and enable it. (<b>Figure 13b</b>)
    <p align="center">
      <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/2437717c-675e-4610-86cd-d2565f036a9e">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/9812892f-65d7-436a-ada7-d4533a348d17"><br/>
