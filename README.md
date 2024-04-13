@@ -1,5 +1,7 @@
 # Q2C
-Software responsible for managing the list of waiting samples in mass spectrometer
+Software responsible for:
+- managing the list of waiting samples in mass spectrometer(s)
+- evaluating the mass spectrometer(s) performance
 
 # Equipment
 ## Hardware
@@ -9,6 +11,7 @@ Software responsible for managing the list of waiting samples in mass spectromet
 -	Windows 10 (64 bits) or later.
 -	The .NET Core 7 or later.
 -	The Q2C software, available for download at https://github.com/diogobor/Q2C/releases
+-	A Google® Gmail account
 
 # Procedures
 
