@@ -17,8 +17,8 @@ Software responsible for:
 
 1. **Software installation:**<br/>
 1.1 <i>Set up a Google cloud project:</i><br/>
-    <div id="ref_1_1_1">&emsp;1.1.1 Go to [Google account](https://accounts.google.com) and sign up or log in.</div><br/>
-    &emsp;1.1.2 Go to [Google cloud platform](https://console.cloud.google.com/) and create a new project.<br/>
+    <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com">Google account</a> and sign up or log in.</div>
+    &emsp;1.1.2 Go to <a href="https://console.cloud.google.com">Google cloud platform</a> and create a new project.<br/>
     &emsp;&emsp;1.1.2.1 To do so, go to <i>Select a project</i>. (<b>Figure 1</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/f1939a67-fedc-41e0-830e-f6b2bedf7066"><br/>
    <b>Figure 1: Access Google cloud platform.</b></p>
@@ -80,14 +80,16 @@ Software responsible for:
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/23d46260-2226-46de-aadc-7a4e654e504b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
    <b>Figure 17: Set up the database.</b></p>
 
-&emsp;&emsp;1.4.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password. <i>Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i>(<b>Figure 18</b>)
+&emsp;&emsp;1.4.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password. <i>Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i> (<b>Figure 18</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e406e0e4-f25f-4dc6-ab52-f7fce5017061"><br/>
 <b>Figure 18: Enter the credentials.</b></p>
 &emsp;&emsp;1.4.3 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
 <p align="center">
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7fa879b0-d974-4941-b1ac-66f88d2b9ba2">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/a49e0d17-48ee-4fea-990e-cc8f7a3aaa26"><br/>
    <b>Figure 19: Give Google permission to access Q2C.</b></p>
-
+&emsp;&emsp;1.4.4 On the next page, '<i>q2c-software wants access to your Google Account</i>', check the '<i>Select all</i>' option, then click on the '<i>Continue</i>' button. (<b>Figure 20</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e8737b55-c231-4e03-9762-efdb3868ff22"><br/>
+<b>Figure 20: Select all option to give Google permission.</b></p>
 
 
 
