@@ -120,6 +120,5 @@ Software responsible for:
 <p>The main Q2C interface shows all registered projects. (Figure 26)</p>
 <p align="center"><img width="60%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7091665e-e861-4119-8ff7-96260b274c24"><br/>
 <b>Figure 24: Graphical User Interface of Q2C’s main window.</b></p>
-&emsp;2.2.1 Add new Projects:<br/>
-&emsp;&emsp;2.2.1.1 Add new Projects:<br/>
-2.3 <b>Machine evaluation:</b><br/>
+
+<b>You can watch <a href="https://github.com/diogobor/Q2C/blob/main/Q2C_video.mp4">this video tutorial</a>, which explains how Q2c works.</b>
