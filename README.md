@@ -101,7 +101,7 @@ Software responsible for:
 &emsp;&emsp;2.1.6.1 To add a new user, enter a username (<i>must be the same as the Windows® username.</i>), a valid email and set a category. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<i>PS: the first registered user is configured as Administrator.</i>) (<b>Figure 23</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/3c1689a4-7aa2-40f8-a2b1-49791148301f"><br/>
 <b>Figure 23: Add new user.</b></p>
-&emsp;&emsp;&emsp;2.1.6.1.1 There are 8 different type of categories:<br/>
+&emsp;&emsp;&emsp;2.1.6.1.1 There are 8 different types of category:<br/>
 &emsp;&emsp;&emsp;&emsp;2.1.6.1.1.1 <i>User</i>: the basic category. Only allows the user to view the project queue (section 2.2).<br/>
 &emsp;&emsp;&emsp;&emsp;2.1.6.1.1.2 <i>User Sample</i>: Allows the user to add/edit/remove projects to the queue (section 2.2).<br/>
 &emsp;&emsp;&emsp;&emsp;2.1.6.1.1.3 <i>Super User Sample</i>: Allows the user to add/edit/remove projects to the queue. In addition, it also allows the user to view the runs (section 4).<br/>
