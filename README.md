@@ -17,8 +17,8 @@ Software responsible for:
 
 1. **Software installation:**<br/>
 1.1 <i>Set up a Google cloud project:</i><br/>
-    <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com">Google account</a> and sign up or log in.</div>
-    &emsp;1.1.2 Go to <a href="https://console.cloud.google.com">Google cloud platform</a> and create a new project.<br/>
+    <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com" target="_">Google account</a> and sign up or log in.</div>
+    &emsp;1.1.2 Go to <a href="https://console.cloud.google.com" target="_">Google cloud platform</a> and create a new project.<br/>
     &emsp;&emsp;1.1.2.1 To do so, go to <i>Select a project</i>. (<b>Figure 1</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/f1939a67-fedc-41e0-830e-f6b2bedf7066"><br/>
    <b>Figure 1: Access Google cloud platform.</b></p>
@@ -74,26 +74,42 @@ Software responsible for:
    <b>Figure 16: Enable Google Sheets API.</b></p>
 &emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).<br/>
 &emsp;1.3 Install it by double-clicking the previous downloaded file.<br/>
-&emsp;1.4 Run Q2C.<br/>
-&emsp;&emsp;1.4.1 On the <i>Database settings</i> screen, set the <b>Google Client ID</b> and the <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section, click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), annd click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)
+
+2. **Workflow:**<br/>
+  2.1 <i>Set up Q2C:</i><br/>
+&emsp;2.1.1 On the <i>Database settings</i> screen, set the <b>Google Client ID</b> and the <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section, click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), annd click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)
 <p align="center">
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/23d46260-2226-46de-aadc-7a4e654e504b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
    <b>Figure 17: Set up the database.</b></p>
 
-&emsp;&emsp;1.4.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password. <i>Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i> (<b>Figure 18</b>)
+&emsp;2.1.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password. <i>Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i> (<b>Figure 18</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e406e0e4-f25f-4dc6-ab52-f7fce5017061"><br/>
 <b>Figure 18: Enter the credentials.</b></p>
-&emsp;&emsp;1.4.3 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
+&emsp;2.1.3 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
 <p align="center">
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7fa879b0-d974-4941-b1ac-66f88d2b9ba2">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/a49e0d17-48ee-4fea-990e-cc8f7a3aaa26"><br/>
    <b>Figure 19: Give Google permission to access Q2C.</b></p>
-&emsp;&emsp;1.4.4 On the next page, '<i>q2c-software wants access to your Google Account</i>', check the '<i>Select all</i>' option, then click on the '<i>Continue</i>' button. (<b>Figure 20</b>)
+&emsp;2.1.4 On the next page, '<i>q2c-software wants access to your Google Account</i>', check the '<i>Select all</i>' option, then click on the '<i>Continue</i>' button. (<b>Figure 20</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e8737b55-c231-4e03-9762-efdb3868ff22"><br/>
 <b>Figure 20: Select all option to give Google permission.</b></p>
+&emsp;2.1.5 Once the permission is done, the next page will display the following message '<i>Received verification code. You may now close this window</i>'. Go back to Q2C. (<b>Figure 21</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/3631e2f3-eac3-434b-bf66-8e962a6625ca"><br/>
+<b>Figure 21: Google permission is complete.</b></p>
+&emsp;2.1.6 Once the Google permission is done, Q2C will display a new window to add new users. Click on '<i>Add User</i>' button. (<b>Figure 22</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/dba6e40c-2c34-49df-84e5-f5f9a3db6b8d"><br/>
+<b>Figure 22: Add new user.</b></p>
+&emsp;&emsp;2.1.6.1 To add a new user, enter a username (<i>must be the same as the Windows® username.</i>), a valid email and set a category. (<i>PS: the first registered user is configured as Administrator.</i>) (<b>Figure 23</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/3c1689a4-7aa2-40f8-a2b1-49791148301f"><br/>
+<b>Figure 23: Add new user.</b></p>
+&emsp;&emsp;&emsp;2.1.6.1.1 There are 8 different type of categories:<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.1 <i>User</i>: the basic category. Only allows the user to view the project queue (section 3).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.2 <i>User Sample</i>: Allows the user to add/edit/remove projects to the queue (section 3).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.3 <i>Super User Sample</i>: Allows the user to add/edit/remove projects to the queue. In addition, it also allows the user to view the runs (section 4).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.4 <i>Super User Machine</i>: Allows the user to add/edit/remove runs (section 4).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.5 <i>Super User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs (sections 3 & 4).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.6 <i>Master User Sample</i>: Allows the user to add/edit/remove projects and put them in the machine queue (sections 3).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.7 <i>Master User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs and put projects in the machine queue (sections 3 & 4).<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.8 <i>Administrator</i>: Allows the user to add/edit/remove databases, users and machines. In addition to having all the Master User Samples & Machine functions (sections 3, 4 & 5).<br/>
 
 
-
-2. **Workflow:**<br/>
-  2.1 <i>Set up Q2C:</i><br/>
-  
 
