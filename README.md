@@ -47,6 +47,10 @@ Software responsible for:
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b0d9d02b-e581-4025-8ffa-81d19e29250d"><br/>
    <b>Figure 8: Save the external user type.</b></p>
    &emsp;&emsp;2.1.4.3 Click on '<i>Save and Continue</i>' button in <i>Scopes</i> and <i>Test users</i> steps. Finally, in '<i>Summary</i>' step, go to the bottom and click on the '<i>Back to dashboard</i>' button.<br/><br/>
+   &emsp;&emsp;2.1.4.4 On the dashboard, click on the '<i>Publish App</i>' button (<b>Figure 9a</b>) and confirm the publication. (<b>Figure 9b</b>)
+   <p align="center">
+     <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/8fe22ebe-d24c-4583-8879-1cc262f6d96b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/481bdc40-e8b9-4241-979c-7466b640dcaa"><br/>
+   <b>Figure 9: Publish <i>q2c-software</i> app.</b></p>
    &emsp;2.1.5 Go to <i>Credentials</i>, click on <i>Create Credentials</i>, then on <i>OAuth client ID</i>. (<b>Figure 9</b>)
    <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/d3c156e5-a667-4ea8-a582-ac2a71a86e20"><br/>
    <b>Figure 9: Create credentials.</b></p>
