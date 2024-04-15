@@ -82,7 +82,9 @@ Software responsible for:
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/23d46260-2226-46de-aadc-7a4e654e504b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
    <b>Figure 17: Set up the database.</b></p>
 
-&emsp;2.1.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password. <i>Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i> (<b>Figure 18</b>)
+&emsp;2.1.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password.  (<b>Figure 18</b>)<br/>
+<i>PS1: Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i><br/>
+<i>PS2: You have 90 seconds to complete this step.</i><br/>
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e406e0e4-f25f-4dc6-ab52-f7fce5017061"><br/>
 <b>Figure 18: Enter the credentials.</b></p>
 &emsp;2.1.3 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
