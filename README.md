@@ -116,13 +116,13 @@ Software responsible for:
 &emsp;2.1.7 Q2C will display a new window to add new machines. Click on '<i>Add Machine</i>' button. (<b>Figure 24</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/69b4e458-4fd9-41a3-920d-7a7d30d6824b"><br/>
 <b>Figure 24: List of registered machines.</b></p>
-&emsp;&emsp;2.1.7.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT & IT</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
-<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e2d08d15-a046-489b-9ad5-a759891d94c9"><br/>
+&emsp;&emsp;2.1.7.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT & IT</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b7fb01d1-3229-4038-babb-a70386119075"><br/>
 <b>Figure 25: Add new machine.</b></p>
 2.2 <b>Projects:</b><br/>
 <p>The main Q2C interface shows all registered projects. (Figure 26)</p>
 <p align="center"><img width="60%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7091665e-e861-4119-8ff7-96260b274c24"><br/>
-<b>Figure 24: Graphical User Interface of Q2C’s main window.</b></p>
+<b>Figure 26: Graphical User Interface of Q2C’s main window.</b></p>
 <i>Watch this tutorial video, which explains how Q2C works.</i>
 
 
