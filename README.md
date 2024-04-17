@@ -78,7 +78,9 @@ Software responsible for:
 
 2. **Workflow:**<br/>
   2.1 <b>Set up Q2C:</b><br/>
-&emsp;2.1.1 On the <i>Database settings</i> screen, set the <b>Google Client ID</b> and the <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section, click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), annd click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)
+&emsp;2.1.1 On the <i>Database settings</i> screen, set the <b>Google Client ID</b> and the <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section.<br/>
+&emsp;&emsp;2.1.1.1 If you are not the administrator, uncheck the <i>Create spreadsheet</i> option, and set the <b>Spreadsheet ID</b> obtained when the administrator set up the Q2C for the first time.<br/>
+&emsp;&emsp;2.1.1.2 Click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), and click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)
 <p align="center">
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/23d46260-2226-46de-aadc-7a4e654e504b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
    <b>Figure 17: Set up the database.</b></p>
