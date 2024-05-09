@@ -18,6 +18,7 @@ Software responsible for:
 
 1. **Software installation:**<br/>
 1.1 <i>Set up a Google cloud project:</i><br/>
+    &emsp;<i>Note: If the Google cloud project has already been established, proceed to step <a href="#ref_1_2">1.2</a>.</i><br/><br/>
     <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com" target="_">Google account</a> and sign up or log in.</div>
     &emsp;1.1.2 Go to <a href="https://console.cloud.google.com" target="_">Google cloud platform</a> and create a new project.<br/>
     &emsp;&emsp;1.1.2.1 To do so, go to <i>Select a project</i>. (<b>Figure 1</b>)
@@ -73,7 +74,7 @@ Software responsible for:
    <p align="center">
      <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/32b9fb7a-28f6-4299-95a2-94ad08b08663">&emsp;&emsp;<img width="25%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/616e0468-e7c8-4710-b039-588fcb4a3e87"><br/>
    <b>Figure 16: Enable Google Sheets API.</b></p>
-&emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).<br/>
+<div id="ref_1_2">&emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).</div><br/>
 &emsp;1.3 Install it by double-clicking the previous downloaded file.<br/>
 
 2. **Workflow:**<br/>
