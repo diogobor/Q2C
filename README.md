@@ -74,8 +74,8 @@ Software responsible for:
    <p align="center">
      <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/32b9fb7a-28f6-4299-95a2-94ad08b08663">&emsp;&emsp;<img width="25%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/616e0468-e7c8-4710-b039-588fcb4a3e87"><br/>
    <b>Figure 16: Enable Google Sheets API.</b></p>
-<div id="ref_1_2">&emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the [latest release](https://github.com/diogobor/Q2C/releases/).</div><br/>
-&emsp;1.3 Install it by double-clicking the previous downloaded file.<br/>
+<div id="ref_1_2">&emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the <a href="https://github.com/diogobor/Q2C/releases/" target="_">latest release</a>.</div>
+&emsp;1.3 Install it by double-clicking the previous downloaded file.<br/><br/>
 
 2. **Workflow:**<br/>
   2.1 <b>Set up Q2C:</b><br/>
