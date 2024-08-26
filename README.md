@@ -3,6 +3,8 @@ Software responsible for:
 - managing the list of waiting samples in mass spectrometer(s)
 - evaluating the mass spectrometer(s) performance
 
+Data used in the manuscript are available from the ProteomeXchange consortium (identifier PXD055186).
+
 # Equipment
 ## Hardware
 - A computer with a minimum of 16 GB RAM and 4 computing cores is recommended.  However, the software can take advantage of superior configurations.
