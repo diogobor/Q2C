@@ -1,9 +1,8 @@
 # Q2C
-Software responsible for:
-- managing the list of waiting samples in mass spectrometer(s)
-- evaluating the mass spectrometer(s) performance
 
-Data used in the manuscript are available from the ProteomeXchange consortium (identifier PXD055186).
+We present Q2C, an open-source software designed to streamline mass spectrometer queue management and assess performance based on quality control metrics.<br/>Q2C provides a fast and user-friendly interface to visualize projects queues, manage analysis schedules and keep track of samples that were already processed. Our software includes analytical tools to ensure equipment calibration and provides comprehensive log documentation for machine maintenance, enhancing operational efficien-cy and reliability.<br/>Additionally, Q2C integrates with Google® Cloud, allowing users to access and manage the software from different locations while keeping all data synchronized and seamlessly integrated across the system.
+
+Data are available from the ProteomeXchange consortium (identifier [PXD055186](https://www.ebi.ac.uk/pride/archive/projects/PXD055186)).
 
 # Equipment
 ## Hardware
