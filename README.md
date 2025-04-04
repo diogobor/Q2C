@@ -17,7 +17,8 @@ Data are available from the ProteomeXchange consortium (identifier [PXD055186](h
 
 # Procedures
 
-1. **Software installation:**<br/>
+<div id="ref_1">1. <b>Software installation:</b></div>
+There are two modes to run Q2C: online and offline. To setup the first one, start from 1.1, otherwise, go to <a href="#ref_2">2</a>.<br/><br/>
 1.1 <i>Set up a Google cloud project:</i><br/>
     &emsp;<i>Note: If the Google cloud project has already been established, proceed to step <a href="#ref_1_2">1.2</a>.</i><br/><br/>
     <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com" target="_">Google account</a> and sign up or log in.</div>
@@ -78,49 +79,51 @@ Data are available from the ProteomeXchange consortium (identifier [PXD055186](h
 <div id="ref_1_2">&emsp;1.2 Download Q2C by clicking on <i>Q2C_setup_64bit.msi</i> in the <a href="https://github.com/diogobor/Q2C/releases/" target="_">latest release</a>.</div>
 &emsp;1.3 Install it by double-clicking the previous downloaded file.<br/><br/>
 
-2. **Workflow:**<br/>
-  2.1 <b>Set up Q2C:</b><br/>
-&emsp;2.1.1 On the <i>Database settings</i> screen, set the <b>Google Client ID</b> and the <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section.<br/>
-&emsp;&emsp;2.1.1.1 If you are not the administrator, uncheck the <i>Create spreadsheet</i> option, and set the <b>Spreadsheet ID</b> obtained when the administrator set up the Q2C for the first time.<br/>
-&emsp;&emsp;2.1.1.2 Click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), and click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)
-<p align="center">
-  <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/23d46260-2226-46de-aadc-7a4e654e504b">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
+<div id="ref_2">2. <b>Workflow:</b></div>
+  &emsp;2.1 <i>Set up Q2C:</i><br/>
+  &emsp;&emsp;2.1.1 As mentioned in <a href="#ref_1">Software installation</a> section, Q2C can be run either online or offline. To setup the offline mode, on the <i>Database settings</i> screen, check <i>Offline Mode</i> option.<br/>
+  <div id="ref_2_1_1_1">&emsp;&emsp;&emsp;2.1.1.1 Click on the '<i>Confirm</i>' button (<b>Figure 17a</b>), and click on '<i>Yes</i>' to accept the modified entries. (<b>Figure 17b</b>)</div>
+  &emsp;&emsp;&emsp;2.1.1.2 Go to <a href="#ref_2_1_3">2.1.3</a>.<br/><br/>
+  <p align="center">
+  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/baad7312-e4ea-455c-8f0a-5d219f41efe8">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7b05461e-3d0b-4ce2-ad9b-93c0b61bf816"><br/>
    <b>Figure 17: Set up the database.</b></p>
-
-&emsp;2.1.2 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password.  (<b>Figure 18</b>)<br/>
+  &emsp;&emsp;2.1.2 On the other hand, the online mode requires <b>Google Client ID</b> and <b>Google Client Secret</b> according to the IDs obtained in <a href="#ref_1_1_5_2">1.1.5.2</a> section.<br/>
+  &emsp;&emsp;&emsp;2.1.2.1 If you are not the administrator, uncheck the <i>Create spreadsheet</i> option, and set the <b>Spreadsheet ID</b> obtained when the administrator set up the Q2C for the first time.<br/>
+  &emsp;&emsp;&emsp;2.1.2.2 Click on the '<i>Confirm</i>' button. Similar to <a href="#ref_2_1_1_1">2.1.1.1</a>.<br/>
+  &emsp;&emsp;&emsp;2.1.2.3 Q2C will be redirected to Google login page. Type the created email in <a href="#ref_1_1_1">1.1.1</a> section, click on the '<i>Next</i>' button and enter the password.  (<b>Figure 18</b>)<br/>
 <i>PS1: Make sure the message 'Sign in to continue to <b>q2c-software</b>' is displayed.</i><br/>
 <i>PS2: You have 90 seconds to complete this step.</i><br/>
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e406e0e4-f25f-4dc6-ab52-f7fce5017061"><br/>
 <b>Figure 18: Enter the credentials.</b></p>
-&emsp;2.1.3 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
+&emsp;&emsp;&emsp;2.1.2.4 Give Google permission to access the app by clicking on '<i>Advanced</i>' link (<b>Figure 19a</b>). Then, click on the '<i>Go to q2c-software (unsafe)</i>' link. (<b>Figure 19b</b>)
 <p align="center">
   <img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7fa879b0-d974-4941-b1ac-66f88d2b9ba2">&emsp;<img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/a49e0d17-48ee-4fea-990e-cc8f7a3aaa26"><br/>
    <b>Figure 19: Give Google permission to access Q2C.</b></p>
-&emsp;2.1.4 On the next page, '<i>q2c-software wants access to your Google Account</i>', check the '<i>Select all</i>' option, then click on the '<i>Continue</i>' button. (<b>Figure 20</b>)
+&emsp;&emsp;&emsp;2.1.2.5 On the next page, '<i>q2c-software wants access to your Google Account</i>', check the '<i>Select all</i>' option, then click on the '<i>Continue</i>' button. (<b>Figure 20</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/e8737b55-c231-4e03-9762-efdb3868ff22"><br/>
 <b>Figure 20: Select all option to give Google permission.</b></p>
-&emsp;2.1.5 Once the permission is done, the next page will display the following message '<i>Received verification code. You may now close this window</i>'. Go back to Q2C. (<b>Figure 21</b>)
+&emsp;&emsp;&emsp;2.1.2.6 Once the permission is done, the next page will display the following message '<i>Received verification code. You may now close this window</i>'. Go back to Q2C. (<b>Figure 21</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/3631e2f3-eac3-434b-bf66-8e962a6625ca"><br/>
 <b>Figure 21: Google permission is complete.</b></p>
-&emsp;2.1.6 Once the Google permission is done, Q2C will display a new window to add new users. Click on '<i>Add User</i>' button. (<b>Figure 22</b>)
+<div id="ref_2_1_3">&emsp;&emsp;2.1.3 Q2C will display a new window to <b>add new users</b>. Click on '<i>Add User</i>' button. (<b>Figure 22</b>)</div>
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/dba6e40c-2c34-49df-84e5-f5f9a3db6b8d"><br/>
 <b>Figure 22: List of registered users.</b></p>
-&emsp;&emsp;2.1.6.1 To add a new user, enter a username (<i>must be the same as the Windows® username.</i>), a valid email and set a category. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<i>PS: the first registered user is configured as Administrator.</i>) (<b>Figure 23</b>)
+&emsp;&emsp;&emsp;2.1.3.1 To add a new user, enter a username (<i>must be the same as the Windows® username.</i>), a valid email and set a category. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<i>PS: the first registered user is configured as Administrator.</i>) (<b>Figure 23</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/3c1689a4-7aa2-40f8-a2b1-49791148301f"><br/>
 <b>Figure 23: Add new user.</b></p>
-&emsp;&emsp;&emsp;2.1.6.1.1 There are 8 different types of category:<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.1 <i>User</i>: the basic category. Only allows the user to view the project queue (section 2.2).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.2 <i>User Sample</i>: Allows the user to add/edit/remove projects to the queue (section 2.2).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.3 <i>Super User Sample</i>: Allows the user to add/edit/remove projects to the queue. In addition, it also allows the user to view the runs (section 4).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.4 <i>Super User Machine</i>: Allows the user to add/edit/remove runs (section 2.3).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.5 <i>Super User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs (sections 2.2 & 2.3).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.6 <i>Master User Sample</i>: Allows the user to add/edit/remove projects and put them in the machine queue (sections 2.2).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.7 <i>Master User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs and put projects in the machine queue (sections 2.2 & 2.3).<br/>
-&emsp;&emsp;&emsp;&emsp;2.1.6.1.1.8 <i>Administrator</i>: Allows the user to add/edit/remove databases, users and machines. In addition to having all the <i>Master User Samples & Machine</i> functions (sections 2.2 & 2.3).<br/>
-&emsp;2.1.7 Q2C will display a new window to add new machines. Click on '<i>Add Machine</i>' button. (<b>Figure 24</b>)
+&emsp;&emsp;&emsp;&emsp;2.1.3.1.1 There are 8 different types of category:<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.1 <i>User</i>: the basic category. Only allows the user to view the project queue (section 2.2).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.2 <i>User Sample</i>: Allows the user to add/edit/remove projects to the queue (section 2.2).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.3 <i>Super User Sample</i>: Allows the user to add/edit/remove projects to the queue. In addition, it also allows the user to view the runs (section 4).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.4 <i>Super User Machine</i>: Allows the user to add/edit/remove runs (section 2.3).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.5 <i>Super User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs (sections 2.2 & 2.3).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.6 <i>Master User Sample</i>: Allows the user to add/edit/remove projects and put them in the machine queue (sections 2.2).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.7 <i>Master User Sample & Machine</i>: Allows the user to add/edit/remove projects and runs and put projects in the machine queue (sections 2.2 & 2.3).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.3.1.1.8 <i>Administrator</i>: Allows the user to add/edit/remove databases, users and machines. In addition to having all the <i>Master User Samples & Machine</i> functions (sections 2.2 & 2.3).<br/><br/>
+&emsp;&emsp;2.1.4 Q2C will display a new window to <b>add new machines</b>. Click on '<i>Add Machine</i>' button. (<b>Figure 24</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/69b4e458-4fd9-41a3-920d-7a7d30d6824b"><br/>
 <b>Figure 24: List of registered machines.</b></p>
-&emsp;&emsp;2.1.7.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT & IT</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
+&emsp;&emsp;&emsp;2.1.4.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT & IT</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b7fb01d1-3229-4038-babb-a70386119075"><br/>
 <b>Figure 25: Add new machine.</b></p>
 2.2 <b>Projects:</b><br/>
