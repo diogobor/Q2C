@@ -18,7 +18,7 @@ Data are available from the ProteomeXchange consortium (identifier [PXD055186](h
 # Procedures
 
 <div id="ref_1">1. <b>Software installation:</b></div>
-There are two modes to run Q2C: online and offline. To setup the first one, start from 1.1, otherwise, go to <a href="#ref_2">2</a>.<br/><br/>
+There are two modes to run Q2C: online and offline. To setup the first one, start from 1.1, otherwise, go to <a href="#ref_1_2">1.2</a>.<br/><br/>
 1.1 <i>Set up a Google cloud project:</i><br/>
     &emsp;<i>Note: If the Google cloud project has already been established, proceed to step <a href="#ref_1_2">1.2</a>.</i><br/><br/>
     <div id="ref_1_1_1">&emsp;1.1.1 Go to <a href="https://accounts.google.com" target="_">Google account</a> and sign up or log in.</div>
