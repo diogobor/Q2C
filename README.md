@@ -15,6 +15,9 @@ Data are available from the ProteomeXchange consortium (identifier [PXD055186](h
 -	The Q2C software, available for download at https://github.com/diogobor/Q2C/releases
 -	A Google® account
 
+## Data files
+-	Q2C is compatible with data files in the formats mzML (proposed by [HUPO Proteomics Standard Initiative](http://www.psidev.info/)) and Thermo® RAW files.
+
 # Procedures
 
 <div id="ref_1">1. <b>Software installation:</b></div>
