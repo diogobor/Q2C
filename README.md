@@ -129,10 +129,34 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;&emsp;2.1.4.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT & IT</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b7fb01d1-3229-4038-babb-a70386119075"><br/>
 <b>Figure 25: Add new machine.</b></p>
-2.2 <b>Projects:</b><br/>
-<p>The main Q2C interface shows all registered projects. (Figure 26)</p>
-<p align="center"><img width="60%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/7091665e-e861-4119-8ff7-96260b274c24"><br/>
+  &emsp;2.1 <i>Projects:</i>
+  &emsp;<p>The main Q2C interface shows all registered projects. (<b>Figure 26</b>)</p>
+  <p align="center"><img width="60%" alt="image" src="https://github.com/user-attachments/assets/daa23248-e3cf-47c5-89b4-ea53ed08154b"><br/>
 <b>Figure 26: Graphical User Interface of Q2C’s main window.</b></p>
+  &emsp;&emsp;2.1.1 To add a new project and queue it , click '<i>Add Project</i>' and a new pop-up window will open. (<b>Figure 27</b>)
+<p align="center"><img width="35%" alt="image" src="https://github.com/user-attachments/assets/3a0c0de9-9264-42ef-a6ee-4b723295085e"><br/>
+<b>Figure 27: Add a new project.</b></p>
+&emsp;&emsp;&emsp;2.1.1.1 <i>Project name</i>: Specify a name for the project.<br/>
+&emsp;&emsp;&emsp;2.1.1.2 <i>Amount of MS time (hours)</i>: The total time for this project will be displayed here according to the number of samples and the selected method.<br/>
+&emsp;&emsp;&emsp;2.1.1.3 <i>Number of Samples</i>: Specify the number of samples.<br/>
+&emsp;&emsp;&emsp;2.1.1.4 <i>Method:</i> Select a pre-defined method.<br/>
+&emsp;&emsp;&emsp;&emsp;2.1.1.4.1 A new method can be defined. To do so, click '<i>+</i>'. A new pop-up window will open. (<b>Figure 28</b>)<br/>
+<p align="center"><img width="50%" alt="image" src="https://github.com/user-attachments/assets/5314da4e-c5b2-4776-8421-cb24936007f6"><br/>
+<b>Figure 28: Define a new method or edit an existing one.</b></p>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.1 <i>Quantification</i>: Select a pre-defined quantification or select '<i>Customize</i>' to create a new one. If the method does not refer to a quantification, select '<i>None</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.2 <i>Purpose / Modification</i>: Select a purpose of the new modification.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.3 <i>Comment</i>: Type a comment for the new method (optional).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.4 <i>Gradient length (min)</i>: Set a gradient legth (in minutes) for the method. This value will be used for computing the '<i>Amount of MS time</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.5 To confirm a new method, click '<i>Confirm</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.6 <i>Export</i>: Choose this option to save the current methods to a file.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.1.1.4.1.7 <i>Load</i>: Select this option to import methods from a file.<br/
+&emsp;&emsp;&emsp;&emsp;&emsp;⇒ Click on an existing method to edit it.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;⇒ To remove a method, click on an existing one and press DEL.<br/><br/>
+&emsp;&emsp;&emsp;2.1.1.5 <i>Machine</i>: Select one or more machines that will acquire the data. If FAIMS will be used for acquiring the data, select '<i>Yes</i>' for the respective machine(s).<br/>
+&emsp;&emsp;&emsp;2.1.1.6 <i>Status</i>: Select the status for the project. New project will have '<i>Wait for acquisition</i>' as status.<br/>
+&emsp;&emsp;&emsp;2.1.1.7 <i>Comments</i>: Type an optional comment for the new project.<br/>
+&emsp;&emsp;&emsp;2.1.1.8 <i>Receive notification(s) by e-mail</i>: Check this option if you want to receive by e-mail when the project changes its status.<br/>
+&emsp;&emsp;&emsp;⇒ Click on '<i>Confirm</i>' to add the new project.<br/>
 <i>Watch this tutorial video, which explains how Q2C works.</i>
 
 
