@@ -166,14 +166,28 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
   <img width="50%" alt="image" src="https://github.com/user-attachments/assets/0270c54a-0bae-4b88-9bdc-6812851fac04">&emsp;<img width="25%" alt="image" src="https://github.com/user-attachments/assets/c3d51bbf-0a7b-4b4f-855f-d16b82bcc97b"><br/>
    <b>Figure 29: Put a project to a machine queue.</b></p>
   &emsp;&emsp;2.2.3 To remove a project, select it and press Delete.<br/>
-  &emsp;&emsp;2.2.4 <i>Statistical analysis → Queue</i>: To check the machines' usability over a specific period, go to '<i>Statistical analysis → Queue</i>' (or press SHIFT + Q).<br/>
+  &emsp;&emsp;2.2.4 <i>Statistical analysis → Queue</i>: To check the machines' usability over a specific period, go to '<i>Statistical analysis → Queue</i>' (or press SHIFT + Q)*.<br/>
   &emsp;&emsp;&emsp;2.2.4.1 Set a specific period or a month or a year and click '<i>Confirm</i>'. Your can check the plots per period or per user. (<b>Figure 30</b>)<br/>
   &emsp;&emsp;<i>* This option is only available for 'Super User Machine', 'Super User Sample & Machine', 'Master User Sample & Machine' and 'Administrator'.</i><br/>
 <p align="center"><img alt="image" src="https://github.com/user-attachments/assets/be88adca-ffc9-419b-899d-eeb644a23fac"><br/>
 <b>Figure 30: Statistic analysis → Machines' Queue.</b></p>
   
   &emsp;2.3 <i>Machine:</i>
-
+  &emsp;<p>In this module, you can check the mass spectrometers' queue as well as assess the machines' efficiency by running quality control samples.</p>
+  &emsp;&emsp;2.3.1 <i>Machines' queue</i>:<br/>
+  &emsp;&emsp;Each mass spectrometer has its own queue. When a project is added, it appears in this tab. (<b>Figure 31</b>)<br/>
+<p align="center"><img width="80%" alt="image" src="https://github.com/user-attachments/assets/8de3b835-b917-4d22-9669-002310e91e8c"><br/>
+<b>Figure 31: Machines' Queue.</b></p>
+  &emsp;&emsp;When all samples for a specific project have been acquired, the responsible for the samples must delete the project from the machine's queue.<br/>
+  &emsp;&emsp;To do so, click on the project and press delete. A message will appear asking if the samples have been measured.<br/>
+  &emsp;&emsp;If so, click 'Yes' and the samples will be removed from the queue, with the status changed to 'Measured' (the project color will be changed to grey).<br/>
+  &emsp;&emsp;If not, click 'No'; the samples will be removed from the queue and the status will return to 'Wait for acquisition'.<br/><br/>
+  &emsp;&emsp;2.3.2 <i>Machines' Evaluation</i>:<br/>
+<p align="center"><img width="80%" alt="image" src="https://github.com/user-attachments/assets/bf2806d2-4000-405a-b5e5-1489781ffc32"><br/>
+<b>Figure 32: Machines' Evaluation</b></p>
+  &emsp;&emsp;2.3.3 <i>Machines' Log</i>:<br/>
+  <p align="center"><img width="80%" alt="image" src="https://github.com/user-attachments/assets/b59842d4-58d5-4742-a1ce-0da221a495a2"><br/>
+<b>Figure 33: Machines' Log</b></p> <br/>
 <i>Watch this tutorial video, which explains how Q2C works.</i>
 
 
