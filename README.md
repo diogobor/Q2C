@@ -126,7 +126,7 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;2.1.4 Q2C will display a new window to <b>add new machines</b>. Click on '<i>Add Machine</i>' button. (<b>Figure 24</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/69b4e458-4fd9-41a3-920d-7a7d30d6824b"><br/>
 <b>Figure 24: List of registered machines.</b></p>
-&emsp;&emsp;&emsp;2.1.4.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT(high resolution) & IT (low resolution)</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
+&emsp;&emsp;&emsp;2.1.4.1 To add a new machine, enter a name, set the frequency of the <i>mass calibration time</i> (<i>default is 2 weeks</i>), set the frequency of the <i>full calibration time</i> (<i>default is 1 month</i>), set the <i>interval time (in minutes)</i> for each project (<i>default is 20</i>), and check the options that satisfy the machine: <i>Evaluation, FAIMS, OT (high resolution) & IT (low resolution)</i>. Then, click on '<i>Confirm</i>' button. Q2C will be restarted. (<b>Figure 25</b>)
 <p align="center"><img width="35%" alt="image" src="https://github.com/diogobor/Q2C/assets/7681148/b7fb01d1-3229-4038-babb-a70386119075"><br/>
 <b>Figure 25: Add new machine.</b></p>
   &emsp;2.2 <i>Projects:</i>
@@ -151,7 +151,7 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.6 <i>Export</i>: Choose this option to save the current methods to a file.<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.7 <i>Load</i>: Select this option to import methods from a file.<br/
 &emsp;&emsp;&emsp;&emsp;&emsp;⇒ Click on an existing method to edit it.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;⇒ To remove a method, click on an existing one and press DEL.<br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;⇒ To remove a method, click on an existing one and press Delete.<br/><br/>
 &emsp;&emsp;&emsp;2.2.1.5 <i>Machine</i>: Select one or more machines that will acquire the data. If FAIMS will be used for acquiring the data, select '<i>Yes</i>' for the respective machine(s).<br/>
 &emsp;&emsp;&emsp;2.2.1.6 <i>Status</i>: Select the status for the project. New project will have '<i>Wait for acquisition</i>' as status.<br/>
 &emsp;&emsp;&emsp;2.2.1.7 <i>Comments</i>: Type an optional comment for the new project.<br/>
@@ -180,8 +180,8 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 <b>Figure 31: Machines' Queue.</b></p>
   &emsp;&emsp;When all samples for a specific project have been acquired, the responsible for the samples must delete the project from the machine's queue.<br/>
   &emsp;&emsp;To do so, click on the project and press delete. A message will appear asking if the samples have been measured.<br/>
-  &emsp;&emsp;If so, click 'Yes' and the samples will be removed from the queue, with the status changed to 'Measured' (the project color will be changed to grey).<br/>
-  &emsp;&emsp;If not, click 'No'; the samples will be removed from the queue and the status will return to 'Wait for acquisition'.<br/><br/>
+  &emsp;&emsp;If so, click '<i>Yes</i>' and the samples will be removed from the queue, with the status changed to '<i>Measured</i>' (the project color will be changed to grey).<br/>
+  &emsp;&emsp;If not, click '<i>No</i>'; the samples will be removed from the queue and the status will return to '<i>Wait for acquisition</i>'.<br/><br/>
   &emsp;&emsp;2.3.2 <i>Machines' Evaluation</i>:<br/>
 <p align="center"><img width="80%" alt="image" src="https://github.com/user-attachments/assets/bf2806d2-4000-405a-b5e5-1489781ffc32"><br/>
 <b>Figure 32: Machines' Evaluation</b></p>
