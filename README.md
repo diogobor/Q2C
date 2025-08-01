@@ -4,6 +4,9 @@ We present Q2C, an open-source software designed to streamline mass spectrometer
 
 Data are available from the ProteomeXchange consortium (identifier [PXD055186](https://www.ebi.ac.uk/pride/archive/projects/PXD055186)).
 
+_<b>Please cite our paper:</b>_<br/>
+_Lima, DB, et al., [“Q2C: A software for managing mass spectrometry facilities”](https://doi.org/10.1016/j.jprot.2025.105511), Journal of Proteomics, 2025._
+
 # Equipment
 ## Hardware
 - A computer with a minimum of 16 GB RAM and 4 computing cores is recommended.  However, the software can take advantage of superior configurations.
