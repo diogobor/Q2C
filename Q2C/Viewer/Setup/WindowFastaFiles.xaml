@@ -1,0 +1,12 @@
+﻿<Window x:Class="Q2C.Viewer.Setup.WindowFastaFiles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Q2C.Viewer.Setup"
+        mc:Ignorable="d"
+        Title="Q2C :: Fasta Files" Icon="/icons/q2c_icon.png" Height="385" Width="670" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closed="Window_Closed">
+    <Grid>
+        <local:UCFastaFiles Margin="5" x:Name="_UCFastaFiles"/>
+    </Grid>
+</Window>
