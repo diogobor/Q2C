@@ -143,7 +143,7 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;&emsp;2.2.1.2 <i>Amount of MS time (hours)</i>: The total time for this project will be displayed here according to the number of samples and the selected method.<br/>
 &emsp;&emsp;&emsp;2.2.1.3 <i>Number of Samples</i>: Specify the number of samples.<br/>
 &emsp;&emsp;&emsp;2.2.1.4 <i>Method:</i> Select a pre-defined method.<br/>
-&emsp;&emsp;&emsp;&emsp;2.2.1.4.1 A new method can be defined. To do so, click '<i>+</i>'. A new pop-up window will open. (<b>Figure 28</b>)<br/>
+<div id="ref_2_2_1_4_1">&emsp;&emsp;&emsp;&emsp;2.2.1.4.1 A new method can be defined. To do so, click '<i>+</i>'. A new pop-up window will open. (<b>Figure 28</b>)<br/></div>
 <p align="center"><img width="50%" alt="image" src="https://github.com/user-attachments/assets/5314da4e-c5b2-4776-8421-cb24936007f6"><br/>
 <b>Figure 28: Define a new method or edit an existing one.</b></p>
 &emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.1 To add a new method, press CTRL + I, set the parameters and click on '<i>Confirm</i>'.<br/>
