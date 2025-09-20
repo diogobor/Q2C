@@ -13,7 +13,7 @@ _Lima, DB, et al., [“Q2C: A software for managing mass spectrometry facilities
 
 ## Software
 -	Windows 10 (64 bits) or later.
--	The .NET Core 7 or later.
+-	The .NET Core 9 or later.
 -	For reading Thermo® RAW files, the MSFileReader must be installed. To do so, create an account on [Thermo®](https://thermo.flexnetoperations.com/control/thmo/login), register, choose <i>Other Releases → MSFileReader 3.1 SP4</i> and download <i>MSFileReader_x64.exe</i>.
 -	The Q2C software, available for download at https://github.com/diogobor/Q2C/releases
 -	A Google® account (for online mode)
