@@ -156,7 +156,10 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.4 <i>Gradient length (min)</i>: Set a gradient legth (in minutes) for the method. This value will be used for computing the '<i>Amount of MS time</i>'.<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.5 To confirm a new method, click '<i>Confirm</i>'.<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.6 <i>Export</i>: Choose this option to save the current methods to a file.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.7 <i>Load</i>: Select this option to import methods from a file.<br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.7 <i>Load</i>: Select this option to import methods from a file. (Default settings can be imported from <a href="https://github.com/diogobor/Q2C/blob/main/q2c_initial_methods.json">q2c_initital_methods.json</a>)<br/><br/>
+
+
+
 &emsp;&emsp;&emsp;2.2.1.5 <i>Machine</i>: Select one or more machines that will acquire the data. If FAIMS will be used for acquiring the data, select '<i>Yes</i>' for the respective machine(s).<br/>
 &emsp;&emsp;&emsp;2.2.1.6 <i>Status</i>: Select the status for the project. New project will have '<i>Wait for acquisition</i>' as status.<br/>
 &emsp;&emsp;&emsp;2.2.1.7 <i>Comments</i>: Type an optional comment for the new project.<br/>
