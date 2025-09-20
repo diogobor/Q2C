@@ -1,5 +1,10 @@
-﻿using Q2C.Control.Database;
+﻿using CSMSL.IO;
+using Q2C.Control;
+using Q2C.Control.Database;
+using Q2C.Model;
+using Q2C.Properties;
 using Q2C.Util;
+using Q2C.Viewer.Setup;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -132,6 +137,40 @@ namespace Q2C.Viewer.WindowAbout
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             Connection.Refresh_time = 0;
+        }
+
+        private void ButtonResetSettings_Click(object sender, RoutedEventArgs e)
+        {
+            #region Reset fasta list
+            Database _database = Management.GetDatabase();
+            if (_database == null) return;
+            _database.FastaFiles[0].IsSelected = true;
+
+            if (_database.FastaFiles.Count > 4)
+            {
+                List<Q2C.Model.FastaFile> current_fasta_list = new List<FastaFile>(_database.FastaFiles);
+                for (int i = 4; i < current_fasta_list.Count; i++)
+                {
+                    Q2C.Model.FastaFile current_fasta = current_fasta_list[i];
+                    Util.Util.RemoveFasta(current_fasta, _database);
+                }
+            }
+            Management.SetDatabase(_database);
+            #endregion
+
+            #region Reset Methods
+            Settings.Default.Methods = Settings.Default.Default_methods;
+            Settings.Default.Save();
+            #endregion
+
+            System.Windows.MessageBox.Show(
+                    "All settings have been reset sucessfully!\nQ2C must be restarted!",
+                    "Q2C :: Information",
+                    (System.Windows.MessageBoxButton)MessageBoxButtons.OK,
+                    (System.Windows.MessageBoxImage)MessageBoxIcon.Warning);
+
+            System.Windows.Forms.Application.Restart();
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

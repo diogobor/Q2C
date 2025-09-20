@@ -43,6 +43,7 @@ namespace Q2C.Viewer.Project
                 _allMethods = new();
 
             UpdateDataGrid();
+            TextComment.Focus();
         }
 
         private void DataGridMethods_LoadingRow(object sender, DataGridRowEventArgs e)
@@ -52,25 +53,33 @@ namespace Q2C.Viewer.Project
 
         private void DataGridMethods_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
-            if (e.Key != Key.Delete)
-                return;
-
-            string method = Util.Util.GetSelectedValue(DataGridMethods, TagProperty);
-            var r = System.Windows.Forms.MessageBox.Show("Do you want to remove '" + method + "' method?", "Q2C :: Warning", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Warning);
-            if (r == System.Windows.Forms.DialogResult.Yes)
+            if (e.Key == Key.Delete)
             {
-                if (RemoveMethod(method))
-                    System.Windows.MessageBox.Show(
-                                "Method has been removed successfully!",
-                                "Q2C :: Information",
-                                (System.Windows.MessageBoxButton)MessageBoxButtons.OK,
-                                (System.Windows.MessageBoxImage)MessageBoxIcon.Information);
+                string method = Util.Util.GetSelectedValue(DataGridMethods, TagProperty);
+                var r = System.Windows.Forms.MessageBox.Show("Do you want to remove '" + method + "' method?", "Q2C :: Warning", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Warning);
+                if (r == System.Windows.Forms.DialogResult.Yes)
+                {
+                    if (RemoveMethod(method))
+                        System.Windows.MessageBox.Show(
+                                    "Method has been removed successfully!",
+                                    "Q2C :: Information",
+                                    (System.Windows.MessageBoxButton)MessageBoxButtons.OK,
+                                    (System.Windows.MessageBoxImage)MessageBoxIcon.Information);
+                    CleanFields();
+                }
+                else
+                {
+                    e.Handled = true;
+                }
+            }
+            else if (e.Key == Key.I && (Keyboard.IsKeyDown(Key.LeftCtrl) || Keyboard.IsKeyDown(Key.RightCtrl)))
+            {
+                UpdateDataGrid();
                 CleanFields();
+                TextComment.Focus();
             }
             else
-            {
-                e.Handled = true;
-            }
+                return;
         }
 
         private void ButtonConfirm_Click(object sender, RoutedEventArgs e)
@@ -519,7 +528,7 @@ namespace Q2C.Viewer.Project
 
         private void ComboGradient_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(ComboGradient.SelectedValue != null &&
+            if (ComboGradient.SelectedValue != null &&
                 ((System.Windows.Controls.ComboBoxItem)(ComboGradient.SelectedValue)).Content != null)
             {
                 string gradient = ((System.Windows.Controls.ComboBoxItem)(ComboGradient.SelectedValue)).Content.ToString();

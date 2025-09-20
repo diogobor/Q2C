@@ -153,7 +153,7 @@ namespace Q2C.Viewer.Setup
                 var r = System.Windows.Forms.MessageBox.Show("Do you want to remove '" + fasta.Name + "' file?", "Q2C :: Warning", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Warning);
                 if (r == System.Windows.Forms.DialogResult.Yes)
                 {
-                    if (RemoveFasta(fasta))
+                    if (Util.Util.RemoveFasta(fasta, _database))
                     {
                         System.Windows.MessageBox.Show(
                                     "Fasta has been removed successfully!",
@@ -183,14 +183,6 @@ namespace Q2C.Viewer.Setup
             }
             else
                 return;
-        }
-
-        private bool RemoveFasta(FastaFile fasta)
-        {
-            string saved_path = Util.Util.FastaFile_Folder + System.IO.Path.GetFileName(fasta.Path);
-            if (File.Exists(saved_path))
-                File.Delete(saved_path);
-            return _database.FastaFiles.Remove(fasta);
         }
 
         private void CleanFields()

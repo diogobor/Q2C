@@ -12,7 +12,7 @@ namespace Q2C.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.14.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -893,6 +893,65 @@ TMT_DSSO_180
             }
             set {
                 this["UserContaminants"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"BS3_120
+DSBSO_0
+DSBSO_120
+DSBSO_120_FAIMS
+DSBSO_180
+DSBSO_60_100nl
+DSSO_0
+DSSO_120
+DSSO_180
+DSS_120
+DSS_180
+DSS_80
+LFQ_120
+LFQ_120_inclusionlist
+LFQ_180
+LFQ_180_DIA
+LFQ_60
+LFQ_80
+PhoX_120
+PhoX_180
+PhoX_30
+Phospho_120
+Phospho_180
+ProteinID_120
+ProteinID_120_highflow
+ProteinID_180
+ProteinID_60
+ProteinID_80
+Pyro_80_EThcD
+SDA_120
+SDA_80
+TMT_120
+TMT_180
+TMT_DSBSO_180
+TMT_DSSO_180
+120_Custom
+0_Custom
+0_Direct injection
+0_LowFlow 40min
+0_PTM OT
+0_PTM step HCD phospho
+0_Pyro CID
+0_Pyro EThcD
+0_Pyro Phospho EThcD
+0_Pyro Target
+0_Pyro inclusion list
+0_Turbo ID
+0_targeted + EThcd FA for precolumn")]
+        public string Default_methods {
+            get {
+                return ((string)(this["Default_methods"]));
+            }
+            set {
+                this["Default_methods"] = value;
             }
         }
     }

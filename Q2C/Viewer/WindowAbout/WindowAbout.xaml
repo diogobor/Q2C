@@ -39,6 +39,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -99,6 +100,24 @@
                 </GroupBox>
 
                 <TextBlock Grid.Column="0" Margin="0,2,0,0" Grid.Row="21" Grid.ColumnSpan="4" FontSize="6.5" HorizontalAlignment="Left">RawFileReader reading tool. Copyright © 2016 by Thermo Fisher Scientific, Inc. All rights reserved.</TextBlock>
+                <Button x:Name="ButtonResetSettings"
+                    Click="ButtonResetSettings_Click"
+                    Margin="5"
+                    Grid.Column="0"
+                    Grid.Row="22"
+                    Grid.ColumnSpan="4"
+                    Grid.RowSpan="2"
+                    Padding="10,1,10,1" 
+                    Height="20"
+                    HorizontalAlignment="Center" 
+                    Cursor="Hand">
+                    <StackPanel Orientation="Horizontal">
+                        <DockPanel>
+                            <Image x:Name="ok_btn_img" Source="/icons/update.png"/>
+                        </DockPanel>
+                        <TextBlock x:Name="ok_btn_text" Margin="5,0,0,0" Width="75">Reset Settings</TextBlock>
+                    </StackPanel>
+                </Button>
             </Grid>
         </GroupBox>
         <Line  Margin="0,0,0,0" HorizontalAlignment="Center" X1="0" Y1="210"  X2="250" Y2="210" StrokeThickness="0.5" Stroke="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" />

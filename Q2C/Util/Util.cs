@@ -1,27 +1,28 @@
 ﻿using Accord.MachineLearning;
-using Accord.Statistics.Models.Regression.Linear;
+using Accord.Math;
 using Accord.Math.Optimization;
 using Accord.Statistics.Models.Regression;
 using Accord.Statistics.Models.Regression.Fitting;
+using Accord.Statistics.Models.Regression.Linear;
+using Q2C.Model;
+using Q2C.Viewer;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Management;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using Accord.Math;
-using System.Globalization;
-using Q2C.Viewer;
-using System.Windows.Controls;
-using System.Windows;
-using System.IO;
-using System.Xml;
-using System.Windows.Markup;
 using System.Security.Cryptography;
-using System.Windows.Data;
+using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Markup;
+using System.Xml;
 
 namespace Q2C.Util
 {
@@ -382,6 +383,14 @@ namespace Q2C.Util
             Grid.SetRowSpan(waitScreen, 2);
             waitScreen.Margin = new Thickness(0, 0, 0, 0);
             return waitScreen;
+        }
+
+        public static bool RemoveFasta(FastaFile fasta, Database database)
+        {
+            string saved_path = FastaFile_Folder + System.IO.Path.GetFileName(fasta.Path);
+            if (File.Exists(saved_path))
+                File.Delete(saved_path);
+            return database.FastaFiles.Remove(fasta);
         }
 
         public static Grid CloneGrid(Grid sourceGrid)
