@@ -146,15 +146,17 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
 &emsp;&emsp;&emsp;&emsp;2.2.1.4.1 A new method can be defined. To do so, click '<i>+</i>'. A new pop-up window will open. (<b>Figure 28</b>)<br/>
 <p align="center"><img width="50%" alt="image" src="https://github.com/user-attachments/assets/5314da4e-c5b2-4776-8421-cb24936007f6"><br/>
 <b>Figure 28: Define a new method or edit an existing one.</b></p>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.1 <i>Quantification</i>: Select a pre-defined quantification or select '<i>Customize</i>' to create a new one. If the method does not refer to a quantification, select '<i>None</i>'.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.2 <i>Purpose / Modification</i>: Select a purpose of the new modification.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.3 <i>Comment</i>: Type a comment for the new method (optional).<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4 <i>Gradient length (min)</i>: Set a gradient legth (in minutes) for the method. This value will be used for computing the '<i>Amount of MS time</i>'.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.5 To confirm a new method, click '<i>Confirm</i>'.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.6 <i>Export</i>: Choose this option to save the current methods to a file.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.7 <i>Load</i>: Select this option to import methods from a file.<br/
-&emsp;&emsp;&emsp;&emsp;&emsp;⇒ Click on an existing method to edit it.<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;⇒ To remove a method, click on an existing one and press Delete.<br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.1 To add a new method, press CTRL + I, set the parameters and click on '<i>Confirm</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.2 To modify a pre-defined method, select the desired one, change the parameters and click on '<i>Confirm</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.3 To delete a method, press DEL. A pop-up message will appear to confirm the deletion; click on '<i>Yes</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4 Parameters:<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.1 <i>Quantification</i>:Select a pre-defined quantification or select '<i>Customize</i>' to create a new one. If the method does not refer to a quantification, select '<i>None</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.2 <i>Purpose / Modification</i>: Select a purpose of the new modification.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.3 <i>Comment</i>: Type a comment for the new method (optional).<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.4 <i>Gradient length (min)</i>: Set a gradient legth (in minutes) for the method. This value will be used for computing the '<i>Amount of MS time</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.5 To confirm a new method, click '<i>Confirm</i>'.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.6 <i>Export</i>: Choose this option to save the current methods to a file.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2.2.1.4.1.4.7 <i>Load</i>: Select this option to import methods from a file.<br/><br/>
 &emsp;&emsp;&emsp;2.2.1.5 <i>Machine</i>: Select one or more machines that will acquire the data. If FAIMS will be used for acquiring the data, select '<i>Yes</i>' for the respective machine(s).<br/>
 &emsp;&emsp;&emsp;2.2.1.6 <i>Status</i>: Select the status for the project. New project will have '<i>Wait for acquisition</i>' as status.<br/>
 &emsp;&emsp;&emsp;2.2.1.7 <i>Comments</i>: Type an optional comment for the new project.<br/>
@@ -191,6 +193,8 @@ There are two modes to run Q2C: online and offline. To setup the first one, star
   &emsp;&emsp;2.3.3 <i>Machines' Log</i>:<br/>
   <p align="center"><img width="80%" alt="image" src="https://github.com/user-attachments/assets/b59842d4-58d5-4742-a1ce-0da221a495a2"><br/>
 <b>Figure 33: Machines' Log</b></p> <br/>
+  &emsp;2.4 <i>Reset settings:</i>
+  &emsp;<p>Q2C allows to reset methods and fasta settings. To do so, go to Help → About → Reset Settings. The software will restart to complete the process.</p>
 <i>Watch this tutorial video, which explains how Q2C works.</i>
 
 
